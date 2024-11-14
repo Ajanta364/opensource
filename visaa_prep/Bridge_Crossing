@@ -1,0 +1,7 @@
+x,y,z=list(map(int,input().split()))
+s=x+y
+c=0
+while s<=z:
+    c+=1
+    s+=x
+print(c)
