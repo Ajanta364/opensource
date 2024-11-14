@@ -1,0 +1,7 @@
+x,y,z=list(map(int,input().split()))
+t=x*y
+m=z*(24*60)
+if t<=m:
+    print('YES')
+else:
+    print('NO')
