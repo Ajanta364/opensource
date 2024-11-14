@@ -1,0 +1,6 @@
+x=int(input())
+po=x*0.10
+if po>100:
+    print(x-po)
+else:
+    print(x-100)
