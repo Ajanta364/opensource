@@ -1,0 +1,8 @@
+x,y,z=list(map(int,input().split()))
+s=x+y
+if (s<=z):
+    print('2')
+elif (s>z and x<=z):
+    print('1')
+else:
+    print('0')
