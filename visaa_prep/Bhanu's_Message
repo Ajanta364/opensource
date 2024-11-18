@@ -1,0 +1,15 @@
+x=input()
+n=len(x)
+if n==10:
+    if(x[0]>=0):
+        print('Correct')
+    else:
+        print('Incorrect')
+elif x[0]=='+' and int(x[1])>=0:
+    if (x[3])==' ' and (n-4)==10:
+        print('Correct')
+    else:
+        print('Incorrect')
+else:
+    print('Incorrect')
+            
