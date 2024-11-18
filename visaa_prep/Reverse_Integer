@@ -1,0 +1,6 @@
+n=int(input())
+m=int(str(abs(n))[::-1])*(-1 if n<0 else 1)
+if(-2**31<=m<=(2**31)-1):
+    print(m)
+else:
+    print(0)
